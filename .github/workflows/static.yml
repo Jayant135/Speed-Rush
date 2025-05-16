@@ -38,9 +38,9 @@ jobs:
         run: |
           pip install pygbag black
 
-      - name: Build Pygame Web App (no run)
+      - name: Build Pygame Web App 
         run: |
-          pygbag --no-run main1.py
+          pygbag --build main1.py
 
 
 
