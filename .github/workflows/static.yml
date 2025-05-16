@@ -38,9 +38,10 @@ jobs:
         run: |
           pip install pygbag black
 
-      - name: Build Pygame Web App
+      - name: Build Pygame Web App (no run)
         run: |
-          pygbag main1.py
+          pygbag --no-run main.py
+
 
 
       - name: Upload GitHub Pages Artifact
