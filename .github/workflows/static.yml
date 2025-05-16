@@ -40,7 +40,7 @@ jobs:
 
       - name: Build Pygame Web App (no run)
         run: |
-          pygbag --no-run main.py
+          pygbag --no-run main1.py
 
 
 
